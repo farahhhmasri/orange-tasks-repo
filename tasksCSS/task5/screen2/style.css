@@ -1,0 +1,46 @@
+html, body{
+    width: 100wv;
+    height: 100hv;
+    background-color: #fffecd;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    row-gap: 20px;;
+    width: 75%;
+}
+
+.inner-container{
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+    text-align: left;
+    padding:5px;
+}
+
+
+.red-container{
+    height: 200px;
+    background-color: white;
+    border:3px dotted red;
+}
+
+.red-container p{
+    border:3px dotted red ;
+    margin:5px;
+}
+
+.red-container h3{
+    color: red;
+}
+
+.orange-highlight{
+    background-color: #fcca92;
+}
+
+.yellow-highlight{
+    background-color: #f6f696;
+}

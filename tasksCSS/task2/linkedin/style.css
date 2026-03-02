@@ -1,0 +1,88 @@
+.form-card{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.form-card form{
+    box-sizing: border-box;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width:300px;
+    padding: 10px;
+}
+
+.show{
+    position: absolute;
+    left: 80%;
+    top:40%;
+    color: #0a66c2;
+    font-weight: bold;
+    font-size: small;
+}
+
+.or{
+    position: absolute;
+    background-color: white;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.apple{
+    position: absolute;
+    top: 15%;
+    left:20%;
+}
+
+p{
+    font-size: small;
+    font-family: "Source Sans", Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+
+.button-style{
+    text-align: center;
+    border-radius: 50px;
+    width:90%;
+    height: max-content;
+    padding:10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.text-style{
+    border-radius: 5px;
+    border-color: lightgray;
+    margin: 5px;
+    width: 90%;
+    padding:10px 5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:70%;
+    position:fixed;
+    bottom:0;
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.bl-linkedin{
+    display: flex;
+    align-items: center;
+}

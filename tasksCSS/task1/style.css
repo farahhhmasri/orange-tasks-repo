@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #ffff00;
+    text-align: right;
+}
+
+.table-container{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.pinkbox {
+    background-color: #ffb6c1;
+    text-align: center;
+}
+
+.lastrow{
+    font-weight: bold; 
+    text-align: center;
+}

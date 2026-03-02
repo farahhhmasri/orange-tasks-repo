@@ -1,0 +1,40 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    color: darkgray;
+}
+
+h2{
+    color: white;
+}
+
+.container{
+    background-color: #1dbcfd;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: left;
+    align-items: left;
+    align-content: space-evenly ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30%;
+    height: 50%;
+    margin: 50px auto;
+}
+
+.item{
+    padding: 5px;
+    width:95%;
+    height:25px;
+    border-radius: 5px;
+    border: #1dbcfd;
+    margin:5px auto;
+}
+
+.button{
+    background-color: #0d56ba;
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+}
