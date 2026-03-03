@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="nav-left-items">
+          <i class="fa-solid fa-bars menu-icon" style="margin-right: 5px"></i>
+          <h3>Dashboard</h3>
+        </div>
+
+        <div class="nav-right-items">
+          <div>
+            <form>
+              <input
+                type="search"
+                placeholder="     Search"
+                style="border: 1px solid gray; width: 90%"
+              />
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </form>
+          </div>
+          <i
+            class="fa-solid fa-circle-user"
+            style="width: 20px; height: 20px"
+          ></i>
+        </div>
+      </div>
+
+      <div class="menu">
+        <div class="menu-item">
+          <i class="fa-solid fa-envelope-open" style="margin-right: 10px"></i>
+          <p>Dashboard</p>
+        </div>
+        <div class="menu-item">
+          <i class="fa-solid fa-chart-line" style="margin-right: 10px"></i>
+          <p>Analytics</p>
+        </div>
+        <div class="menu-item">
+          <i class="fa-solid fa-envelope-open" style="margin-right: 10px"></i>
+          <p>Messages</p>
+        </div>
+        <div class="menu-item">
+          <i class="fa-solid fa-gear" style="margin-right: 10px"></i>
+          <p>Settings</p>
+        </div>
+      </div>
+
+      <div class="main-cards">
+        <h3>Dashboard</h3>
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-icon">
+              <i
+                class="fa-solid fa-envelope-open"
+                style="margin-right: 10px; color: #048ef0"
+              ></i>
+              <h3>$7,500</h3>
+            </div>
+            <p>Total Sales</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i
+                class="fa-solid fa-user"
+                style="margin-right: 10px; color: #09a155"
+              ></i>
+              <h3>1,250</h3>
+            </div>
+            <p>New Users</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i
+                class="fa-solid fa-box"
+                style="margin-right: 10px; color: #f89923"
+              ></i>
+              <h3>3,200</h3>
+            </div>
+            <p>Total Orders</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i
+                class="fa-solid fa-screwdriver-wrench"
+                style="margin-right: 10px; color: #db474d"
+              ></i>
+              <h3>50</h3>
+            </div>
+            <p>Support Tickets</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-table">
+        <h3>Transactions</h3>
+        <hr>
+        <div class="table-search">
+            <h4 style="margin-right: 5px;">Cohterd</h4>
+            <form>
+                <select>
+                <option>Fake1</option>
+                <option>Fake2</option>
+                </select>
+            </form>
+            <p style="margin-left: 5px;">Plest</p>
+        </div>
+        <table>
+            <tr>
+              <th>Order ID</th>
+              <th>Customer</th>
+              <th>Status</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td>#10001</td>
+              <td>John Doe</td>
+              <td>
+                <span
+                  style="
+                    color: white;
+                    background-color: #009b52;
+                    border-radius: 5px;
+                  "
+                  >Paid</span
+                >
+              </td>
+              <td>$120.00</td>
+            </tr>
+            <tr>
+              <td>#10002</td>
+              <td>Jane Smith</td>
+              <td>
+                <span
+                  style="
+                    color: white;
+                    background-color: #fd9b03;
+                    border-radius: 5px;
+                  "
+                  >Pending</span
+                >
+              </td>
+              <td>$75.00</td>
+            </tr>
+            <tr>
+              <td>#10003</td>
+              <td>Mike Johnson</td>
+              <td>
+                <span
+                  style="
+                    color: white;
+                    background-color: #009b52;
+                    border-radius: 5px;
+                  "
+                  >Paid</span
+                >
+              </td>
+              <td>$45.00</td>
+            </tr>
+            <tr>
+              <td>#10001</td>
+              <td>Sarah Brown</td>
+              <td>
+                <span
+                  style="
+                    color: white;
+                    background-color: #fd9b03;
+                    border-radius: 5px;
+                  "
+                  >Pending</span
+                >
+              </td>
+              <td>$200.00</td>
+            </tr>
+            <tr>
+              <td>#10005</td>
+              <td>Chris Wilson</td>
+              <td>
+                <span
+                  style="
+                    color: white;
+                    background-color: #009b52;
+                    border-radius: 5px;
+                  "
+                  >Paid</span
+                >
+              </td>
+              <td>$99.00</td>
+            </tr>
+          </table>
+        
+        <div class="table-footer">
+          <p style="margin-right: 5px;">Previous</p>
+          <p style="margin-right: 5px;">1</p>
+          <p style="margin-right: 5px;;">Next</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
