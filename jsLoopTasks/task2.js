@@ -305,22 +305,28 @@ document.writeln("<br>");
 document.writeln("<br>");
 
 // 32
-// for (let i = 1; i < 501; i++) {
-//   let strNum = i.toString();
-//   let counter = strNum.length;
-//   if (counter > 1) {
-//     let sum = 0;
-//     for (let j = 0; j < counter; j++) {
-//       sum += Number(strNum[j]);
-//     }
-//     if (sum > 10) {
-//       document.writeln(i);
-//       document.writeln("<br>");
-//     }
-//   }
-// }
-// document.writeln("<br>");
-// document.writeln("<br>");
+for (let i = 1; i < 501; i++) {
+  let strNum = i.toString();
+  let counter = strNum.length;
+  if (counter > 1) {
+    let sum = 0;
+    for (let j = 0; j < counter; j++) {
+      sum += Number(strNum[j]);
+    }
+    let isPrime = sum > 1;
+    for (let k = 2; k < sum; k++) {
+      if (sum % k === 0) {
+        isPrime = false;
+        break;
+      }
+    }
+    if (isPrime) {
+      document.writeln(i + "<br>");
+    }
+  }
+}
+document.writeln("<br>");
+document.writeln("<br>");
 
 // 33
 for (let i = 1; i < 301; i++) {
@@ -612,6 +618,29 @@ document.writeln("<br>");
 document.writeln("<br>");
 
 // 48
+for (let i = 1; i < 1001; i++) {
+  let strNum = i.toString();
+  let counter = strNum.length;
+  if (counter > 1) {
+    let reverse = "";
+    for (let j = counter; j > 0; j--) {
+      reverse += String(strNum[j - 1]);
+    }
+    let isPrime = Number(reverse) > 0;
+    for (let k = 2; k < Number(reverse); k++) {
+      if (Number(reverse) % k === 0) {
+        isPrime = false;
+        break;
+      }
+    }
+    if (isPrime === true) {
+      document.writeln(i);
+      document.writeln("<br>");
+    }
+  }
+}
+document.writeln("<br>");
+document.writeln("<br>");
 
 // 49
 for (let i = 1; i < 1001; i++) {
