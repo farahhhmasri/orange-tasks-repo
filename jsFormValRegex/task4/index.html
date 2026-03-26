@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Registration Form</h3>
+      <form id="form">
+        <div class="names">
+          <div class="item">
+            <span>First Name</span>
+            <input type="text" name="fname" id="fname" />
+            <small id="fnameError"></small>
+          </div>
+
+          <div class="item">
+            <span>Last Name</span>
+            <input type="text" name="lname" id="lname" />
+            <small id="lnameError"></small>
+          </div>
+        </div>
+
+        <div class="item">
+          <span>Date Of Birth</span>
+          <input type="date" name="dob" id="dob" />
+          <small id="dobError"></small>
+        </div>
+
+        <div class="item">
+          <span>Email Address</span>
+          <input type="email" name="email" id="email" />
+          <small id="emailError"></small>
+
+          <input
+            type="email"
+            name="confEmail"
+            id="confEmail"
+            placeholder="Confirm Password"
+          />
+          <small id="confEmailError"></small>
+        </div>
+
+        <div class="item">
+          <span>Password</span>
+          <input type="password" name="password" id="password" />
+          <small id="passwordError"></small>
+        </div>
+
+        <div class="item">
+          <span>Confirm Password</span>
+          <input type="password" name="confPassword" id="confPassword" />
+          <small id="confPasswordError"></small>
+        </div>
+
+        <input type="submit" value="Register" class="submit-btn" />
+
+        <small id="formError"></small>
+      </form>
+    </div>
+
+    <script src="task.js"></script>
+  </body>
+</html>

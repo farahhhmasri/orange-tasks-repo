@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form-div">
+        <h2>Basic Info Form</h2>
+
+        <div>
+          <span>First Name:</span>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Enter your first name"
+          />
+          <br />
+          <small id="fnameError"></small>
+        </div>
+
+        <div>
+          <span>Last Name:</span>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Enter your last name"
+          />
+          <br />
+          <small id="lnameError"></small>
+        </div>
+
+        <div>
+          <span>Email:</span>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <br />
+          <small id="emailError"></small>
+        </div>
+
+        <input type="submit" value="Submit" id="submit" class="form-btn" />
+      </form>
+      <hr />
+      <div class="form-data-div">
+        <h4>Submitted Data:</h4>
+        <div>
+          <span>First Name: </span>
+          <p id="fname-show"></p>
+        </div>
+
+        <div>
+          <span>Last Nmame: </span>
+          <p id="lname-show"></p>
+        </div>
+        <div>
+          <span>Email: </span>
+          <p id="email-show"></p>
+        </div>
+      </div>
+    </div>
+    <script src="task.js"></script>
+  </body>
+</html>
