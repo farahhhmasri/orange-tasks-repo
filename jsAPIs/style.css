@@ -1,13 +1,30 @@
 body {
-  background-color: #f0f6fb;
+  background-color: #e6ecf4;
+  font-family: "Segoe UI";
+  margin: 0;
 }
 
-.container {
+.main-container {
+  background-color: #f4f8fb;
+  border-color: #fafcfe;
+  box-shadow: 2px 2px 4px #ccc;
+  border-radius: 8px;
+  width: 90%;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardscontainer {
   margin-top: 20px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
   justify-content: center;
+  width: 90%;
+  height: fit-content;
 }
 
 .card {
@@ -16,14 +33,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border-color: #ccc;
+  border-color: #fafcfe;
   box-shadow: 1px 1px 4px #ccc;
   border-radius: 8px;
   margin-bottom: 2rem;
   width: 20%;
-  height: 20%;
+  min-width: fit-content;
+  min-height: 150px;
   text-align: center;
-  gap: 5px;
   padding: 5px;
 }
 
@@ -38,7 +55,7 @@ body {
   color: #8572ac;
   text-decoration: none;
   font-size: small;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-weight: bolder;
 }
 
@@ -53,4 +70,70 @@ body {
 
 .search-bar {
   display: none;
+  width: 20%;
+}
+
+.loadcontent {
+  color: white;
+  background-color: #574de9;
+  border-color: #574de9;
+  padding: 5px;
+  text-align: center;
+  font-size: small;
+  border-radius: 8px;
+}
+
+.text-div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 90%;
+}
+
+.text-div span {
+  padding: 0px 5px;
+  font-size: small;
+  color: gray;
+  background-color: #f4f8fb;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgDiv {
+  gap: 2px;
+  padding: 10px;
+  width: 90%;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #dbddf3;
+}
+
+.header h2 {
+  margin-left: 5px;
+  color: #2f1042;
+}
+
+.header span {
+  color: #2746b4;
+}
+
+.header {
+  text-align: center;
+}
+
+.header small {
+  margin-top: 0;
+  color: gray;
+  font-size: x-small;
+  font-weight: bolder;
+}
+
+.title {
+  display: flex;
+  align-items: center;
 }

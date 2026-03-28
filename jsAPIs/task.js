@@ -1,4 +1,4 @@
-let container = document.getElementById("container");
+let cardscontainer = document.getElementById("cardscontainer");
 let loadDiv = document.getElementById("loadDiv");
 
 let searchBar = document.getElementById("searchBar");
@@ -25,16 +25,17 @@ fetch("https://api.github.com/users")
             <a href=${link} target="_blank">View Profile</a>
             `;
 
-      container.appendChild(userDiv);
+      cardscontainer.appendChild(userDiv);
     });
   })
   .catch((err) => {
+    loadDiv.innerHTML = "";
     loadDiv.style.color = "red";
     loadDiv.textContent = "ERROR While fetching the data" + err;
   });
 
 searchBar.addEventListener("input", (event) => {
-  container.innerHTML = "";
+  cardscontainer.innerHTML = "";
   let searchValue = event.target.value;
 
   usersData.forEach((user) => {
@@ -52,7 +53,7 @@ searchBar.addEventListener("input", (event) => {
             <a href=${link} target="_blank">View Profile</a>
             `;
 
-      container.appendChild(userDiv);
+      cardscontainer.appendChild(userDiv);
     }
   });
 });
