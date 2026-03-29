@@ -1,0 +1,79 @@
+body {
+  background-color: #f5f4f9;
+  font-family: "Segoe UI";
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+}
+
+.container {
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px gray;
+  width: 50%;
+  margin: 50px auto;
+  height: 400px;
+  background-color: #fefefe;
+}
+
+.header {
+  text-align: center;
+  padding: 5px;
+  color: #3d4655;
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.searchBar {
+  border-radius: 5px;
+  border-color: #f1f2f6;
+  background-color: #f1f2f6;
+  margin-right: 0;
+  width: 70%;
+}
+
+.resetbtn {
+  background-color: #4485da;
+  border-color: #4485da;
+  color: white;
+  margin-left: 0;
+  border-radius: 5px;
+  position: relative;
+  left: 0;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.delete-btn {
+  border-radius: 5px;
+  color: white;
+  background-color: #e35d4e;
+  border-color: #e35d4e;
+  width: 20%;
+  height: 25px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  border-radius: 40px;
+  margin-right: 5px;
+}
